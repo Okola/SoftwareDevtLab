@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Phoenix Homes</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot_password</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="for_better_housing">For better housing</string>
+    <string name="phoenix_homes">Phoenix Homes</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_names">full Names</string>
+    <string name="do_not_have_an_account">Do not have an account?</string>
+    <string name="toolbaroptionsbtn">toolbaroptionsbtn</string>
+    <string name="logout">Logout</string>
+    <string name="Drawer_open" />
+    <string name="Drawer_close" />
 </resources>

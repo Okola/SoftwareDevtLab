@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "791620202664",
+    "project_id": "phoenix-homes-89887",
+    "storage_bucket": "phoenix-homes-89887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791620202664:android:0ed0b40022ef2285c2929d",
+        "android_client_info": {
+          "package_name": "com.example.phoenixhomes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791620202664-4187vnrf5m167c52poclgpmmlpeij6hd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phoenixhomes",
+            "certificate_hash": "1e0aa782b4fbc300afceaa9b5cbe1d7ac5ca4da6"
+          }
+        },
+        {
+          "client_id": "791620202664-rsqnfotss9ofsndlj1o8nmvkc2m6l1ut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6eKICHluqWuBjZ11uy2Ol322d7BfcCR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791620202664-rsqnfotss9ofsndlj1o8nmvkc2m6l1ut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
