@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:layout_marginHorizontal="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breastfeeding (Well/Poorly/Unable to breastfeed) :"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="12dp"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:id="@+id/breastfeedingHolder1"
+                android:textSize="15sp"
+                android:textColor="@color/primary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other feeds introduced below 6 months: (Yes/No) .If yes, at what age"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/otherfeedsintroducedNoHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complementary food: Other foods introduced: (Yes/No)"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="12dp"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_marginStart="12dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/complimentaryfoodHolder1"
+                android:textSize="15sp"
+                android:textColor="@color/primary"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retention of feeds/indigestion:"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="12dp"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:id="@+id/retentionHolder1"
+                android:layout_marginBottom="12dp"
+                android:textSize="15sp"
+                android:textColor="@color/primary"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="SUBMIT"
+            android:textSize="15sp"
+            android:id="@+id/submit"
+            android:textColor="@color/secondary"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/round_btn"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

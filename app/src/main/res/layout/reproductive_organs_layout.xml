@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp">
+        <TableRow>
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/dateHolder4"
+                android:text="Date"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/examinationHolder4"
+                android:text="Examination"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/testHolder4"
+                android:text="Test"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/resultsHolder4"
+                android:text="Results"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/treatmentHolder4"
+                android:text="Treatment"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

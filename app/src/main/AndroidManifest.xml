@@ -16,6 +16,94 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PhoenixHomes"
         tools:targetApi="31">
+
+        <activity
+            android:name=".DevelopmentMilestone"
+            android:exported="false" />
+        <activity
+            android:name=".DevelopmentProgressHeight"
+            android:exported="false" />
+        <activity
+            android:name=".DevelopmentProgressWeight"
+            android:exported="false" />
+        <activity
+            android:name=".AdministeredVaccines"
+            android:exported="false" />
+        <activity
+            android:name=".BehaviouralCharacteristics"
+            android:exported="false" />
+        <activity
+            android:name=".FeedingInformation"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicalReview"
+            android:exported="false" />
+        <activity
+            android:name=".CivilRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".HealthRecord"
+            android:exported="false" />
+        <activity
+            android:name=".ParticularsOfChild"
+            android:exported="false" />
+        <activity
+            android:name=".ChildMonitoring"
+            android:exported="false" />
+        <activity
+            android:name=".selectChild"
+            android:exported="false" />
+        <activity
+            android:name=".ClinicalNotes"
+            android:exported="false" />
+        <activity
+            android:name=".FamilyPlanning"
+            android:exported="false" />
+        <activity
+            android:name=".ReproductiveOrgans"
+            android:exported="false" />
+        <activity
+            android:name=".PostNatalExamination"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery"
+            android:exported="false" />
+        <activity
+            android:name=".PreventiveService"
+            android:exported="false" />
+        <activity
+            android:name=".ProgressReport"
+            android:exported="false" />
+        <activity
+            android:name=".WeightGain"
+            android:exported="false" />
+        <activity
+            android:name=".PresentPregnancyTable"
+            android:exported="false" />
+        <activity
+            android:name=".PhysicalExamination"
+            android:exported="false" />
+        <activity
+            android:name=".PreviousPregnancy"
+            android:exported="false" />
+        <activity
+            android:name=".MedicalAndSurgicalHistory"
+            android:exported="false" />
+        <activity
+            android:name=".MaternalProfile"
+            android:exported="false" />
+        <activity
+            android:name=".AntennatalProfile"
+            android:exported="false" />
+        <activity
+            android:name=".InfantFeeding"
+            android:exported="false" />
+        <activity
+            android:name=".PostNatalCare"
+            android:exported="false" />
+        <activity
+            android:name=".MotherChildCareHome"
+            android:exported="false" />
         <activity
             android:name=".user_registration"
             android:exported="false" />
@@ -24,6 +112,10 @@
             android:exported="false" />
         <activity
             android:name=".userLogin"
+            android:exported="true" />
+
+        <activity
+            android:name=".splashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

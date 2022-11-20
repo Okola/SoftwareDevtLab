@@ -4,13 +4,98 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Projects/app/src/main/res/drawable/add.xml" value="0.165" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_administered_vaccines.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_antennatal_profile.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_behavioural_characteristics.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_child_monitoring.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_civil_registration.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_clinical_notes.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_clinical_review.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_delivery.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_development_milestone.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_development_progress_height.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_development_progress_weight.xml" value="0.1" />
         <entry key="..\:/Android Projects/app/src/main/res/layout/activity_drawer_base.xml" value="0.2996352266805628" />
-        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_main.xml" value="0.29936594202898553" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_family_planning.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_feeding_information.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_health_record.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_infant_feeding.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_main.xml" value="0.2879999900124293" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_maternal_profile.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_medical_and_surgical_history.xml" value="0.4363636212309535" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_mother_child_care_home.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_particulars_of_child.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_physical_examination.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_post_natal_care.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_post_natal_examination.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_present_pregnancy_table.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_preventive_service.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_previous_pregnancy.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_progress_report.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_reproductive_organs.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_select_child.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Android Projects/app/src/main/res/layout/activity_user_login.xml" value="0.2740036231884058" />
         <entry key="..\:/Android Projects/app/src/main/res/layout/activity_user_registration.xml" value="0.2879999900124293" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/activity_weight_gain.xml" value="0.21818181061547676" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/administered_vaccine_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/administered_vaccines_recycler_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/antenatal_profile_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/antenatal_profile_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/appointment_doctor_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/behavioural_characteristics_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/behavioural_characteristics_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/child_postnatal_examination_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/child_postnatal_examination_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/child_recycler_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/civil_registration_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/civil_registration_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/clinical_notes_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/clinical_notes_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/clinical_review_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/clinical_review_layout.xml" value="0.1" />
         <entry key="..\:/Android Projects/app/src/main/res/layout/content_layout.xml" value="0.2994791666666667" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/delivery_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/delivery_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/development_milestone_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/development_milestone_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/dialog_child_details.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/family_planning_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/family_planning_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/feeding_information_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/feeding_information_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/ferrous_fumerate_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/ferrous_fumerate_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/health_record_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/health_record_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/height_gain_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/imapairments_and_disabilities_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/imapairments_and_disabilities_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/infant_feeding_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/infant_feeding_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/maternal_profile_dialog_layout.xml" value="0.16530797101449277" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/maternal_profile_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/medical_and_surgical_history_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/medical_and_surgical_history_layout.xml" value="0.1483636312185242" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/mother_postnatal_examination_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/mother_postnatal_examination_layout.xml" value="0.1" />
         <entry key="..\:/Android Projects/app/src/main/res/layout/nav_header.xml" value="0.21818181061547676" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/particulars_of_child_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/particulars_of_child_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/physical_examination_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/physical_examination_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/pregnancy_order_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/pregnancy_order_layout_dialog.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/present_pregnancy_table_dialog_table.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/present_pregnancy_table_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/preventive_service_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/preventive_service_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/previous_pregnancy_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/previous_pregnancy_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/reproductive_organs_dialog_layout.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/reproductive_organs_layout.xml" value="0.1" />
         <entry key="..\:/Android Projects/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Android Projects/app/src/main/res/layout/weight_gain_dialog_layout.xml" value="0.15709090364314326" />
         <entry key="..\:/Android Projects/app/src/main/res/menu/navigation_menu.xml" value="0.2994791666666667" />
         <entry key="..\:/Android Projects/app/src/main/res/menu/toolbar_menu.xml" value="0.2879999900124293" />
       </map>

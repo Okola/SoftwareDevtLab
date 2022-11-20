@@ -9,15 +9,7 @@
         android:icon="@drawable/home" />
 
 
-    <item
-        android:id="@+id/FAQ"
-        android:title="FAQ"
-        android:icon="@drawable/faq"/>
 
-    <item
-        android:id="@+id/nav_settings"
-        android:title="About Us"
-        android:icon="@drawable/profile_icon"/>
 
 
 

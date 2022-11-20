@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/secondary"
+        android:background="@color/secondary"
+        android:layout_gravity="center_horizontal"
+        android:elevation="0dp"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/vaccine"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/vaccine"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/dose"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/dosage"
+                android:background="@drawable/cell_shape"
+                android:textColor="@color/black" />
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/cell_shape"
+                android:text="@string/date_administered"
+                android:textColor="@color/black" />
+            <TextView
+                android:id="@+id/nextVaccinationVisit"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:background="@drawable/cell_shape"
+                android:text="Date of Next Visit"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+
+
+</LinearLayout>

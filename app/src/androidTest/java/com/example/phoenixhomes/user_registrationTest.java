@@ -33,7 +33,7 @@ public class user_registrationTest {
     @Rule
     public ActivityScenarioRule<user_registration> activityScenarioRule = new ActivityScenarioRule<user_registration>(user_registration.class);
 
-    private String uName = "Phoenix Homes";
+    private String uName = "Mother Child Handbook";
 
     @Before
     public void setUp() throws Exception {
@@ -49,7 +49,7 @@ public class user_registrationTest {
         //perform button click
         Espresso.onView(withId(R.id.register)).perform(click());
         //check the text in textview
-        Espresso.onView(withId(R.id.bannerDescription)).check(matches(withText("for better housing")));
+        Espresso.onView(withId(R.id.bannerDescription)).check(matches(withText("for better healthcare")));
 
     }
 

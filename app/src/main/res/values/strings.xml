@@ -1,17 +1,159 @@
 <resources>
-    <string name="app_name">Phoenix Homes</string>
+    <string name="app_name">Mother Child Handbook</string>
     <string name="register">Register</string>
-    <string name="forgot_password">Forgot_password</string>
+    <string name="forgot_password">Forgot password</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="email_address">Email Address</string>
-    <string name="for_better_housing">For better housing</string>
-    <string name="phoenix_homes">Phoenix Homes</string>
+    <string name="for_better_housing">For better healthcare</string>
+    <string name="phoenix_homes">Mother Child Handbook</string>
     <string name="phone_number">Phone Number</string>
     <string name="full_names">full Names</string>
+    <string name="Drawer_open">Drawer Open</string>
+    <string name="Drawer_close">Drawer Close</string>
     <string name="do_not_have_an_account">Do not have an account?</string>
     <string name="toolbaroptionsbtn">toolbaroptionsbtn</string>
     <string name="logout">Logout</string>
-    <string name="Drawer_open" />
-    <string name="Drawer_close" />
+    <string name="anc_delivery_and_postnatal_care">ANC DELIVERY AND POSTNATAL CARE</string>
+    <string name="child_health_monitoring">CHILD HEALTH MONITORING</string>
+    <string name="select_pregnancy_order">Select Pregnancy Order</string>
+    <string name="add_order">Add Order</string>
+    <string name="maternal_profile">Maternal Profile</string>
+    <string name="update_details">Update Details</string>
+    <string name="medical_and_surgical_history">Medical and Surgical History</string>
+    <string name="previous_pregnancy">Previous Pregnancy</string>
+    <string name="physical_examination">Physical Examination</string>
+    <string name="antenatal_profile">Antenatal Profile</string>
+    <string name="infant_feeding">Infant Feeding</string>
+    <string name="present_pregnancy">Present Pregnancy</string>
+    <string name="weight_gain_chart">Weight Gain Chart</string>
+    <string name="preventive_services">Preventive Services</string>
+    <string name="delivery">Delivery</string>
+    <string name="postnatal_examination">Postnatal Examination</string>
+    <string name="reproductive_organs">Reproductive Organs</string>
+    <string name="family_planning">Family Planning</string>
+    <string name="clinical_notes">Clinical Notes</string>
+    <string name="name_of_client">Name of Client</string>
+    <string name="weight_of_child_in_kg">Weight of Child in KG</string>
+    <string name="a_line_graph_showing_the_weight_in_kilograms_kgs_of_the_child_over_time">a line graph showing the weight in kilograms kgs of the child over time</string>
+    <string name="select_date">select date</string>
+    <string name="child_details">child details</string>
+    <string name="name">name</string>
+    <string name="child_name">child name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="gender">Gender</string>
+    <string name="submit">Submit</string>
+    <string name="select_a_child">Select a child</string>
+    <string name="add_child">Add child</string>
+    <string name="the_dosages_and_vaccines_administered_so_far">The Dosages and Vaccines Administered so far</string>
+    <string name="vaccine">Vaccine</string>
+    <string name="dosage">Dosage</string>
+    <string name="date_administered">Date Administered</string>
+    <string name="date_of_next_visit">Date of Next Visit</string>
+    <string name="for_better_healthcare">For Better HealthCare</string>
+    <string name="mother_child_handbook">Mother Child Handbook</string>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Vaccines">
+        <item>BCG</item>
+        <item>Polio(opv)</item>
+        <item>Diphteria,Pertussis,Tetanus,Hepatisis b,Influenza-type b</item>
+        <item>Pneumoccocal conjugate</item>
+        <item>Rota virus</item>
+        <item>Polio(ipv)</item>
+        <item>Measles rubella vacccine(mr)</item>
+        <item>Yellow Fever</item>
+    </string-array>
+    <string-array name="Dosage">
+        <item>- 1st dose</item>
+        <item>- 2nd dose</item>
+        <item>- 3rd dose</item>
+        <item>- 4th dose</item>
+        <item> n/a </item>
+    </string-array>
+    <string-array name="Medicine">
+        <item>**Tetanus toxoid 1</item>
+        <item>Tetanus toxoid 2</item>
+        <item>Tetanus toxoid 3</item>
+        <item>Tetanus toxoid 4</item>
+        <item>Tetanus toxoid 5</item>
+        <item>*Malaria Prophylaxis (IPT1) at 16 weeks</item>
+        <item>Malaria Prophylaxis (IPT2) at 4 weeks</item>
+        <item>Malaria Prophylaxis (IPT3) at 4 weeks</item>
+        <item>Malaria Prophylaxis (IPT4) at 4 weeks</item>
+        <item>Malaria Prophylaxis (IPT5) at 4 weeks</item>
+        <item>Malaria Prophylaxis (IPT6) at 4 weeks</item>
+        <item>Malaria Prophylaxis (IPT7) at 4 weeks</item>
+    </string-array>
+
+    <string-array name="visitOrder">
+        <item>1st visit</item>
+        <item>2nd Visit</item>
+        <item>3rd Visit</item>
+        <item>4th Visit</item>
+    </string-array>
+
+    <string-array name="Weeks">
+        <item>16 weeks</item>
+        <item>28 weeks</item>
+        <item>32 weeks</item>
+        <item>36 weeks</item>
+    </string-array>
+
+    <string-array name="Tablets">
+        <item>90 tablets</item>
+        <item>90 tablets</item>
+        <item>60 tablets</item>
+        <item>30 tablets</item>
+    </string-array>
+    <string-array name="Examination">
+        <item>CERVIX</item>
+        <item>BREAST</item>
+    </string-array>
+    <string-array name="Test">
+        <item>VIA</item>
+        <item>VILI</item>
+        <item>Pap smear</item>
+        <item>CBE</item>
+    </string-array>
+
+    <string-array name="Results">
+        <item>VIA negative</item>
+        <item>VIA positive</item>
+        <item>VILI negative</item>
+        <item>VILI positive</item>
+        <item>LSIL</item>
+        <item>Benign lump</item>
+        <item>Suspicious for Cancer</item>
+        <item>HSIL</item>
+        <item>Overt Cancer</item>
+        <item>Suspicious lump</item>
+    </string-array>
+
+    <string-array name="Treatment">
+        <item>Cryo</item>
+        <item>LEEP</item>
+        <item>Referral</item>
+    </string-array>
+
+    <string-array name="Milestones">
+        <item>Social Smile</item>
+        <item>Head Holding/Control</item>
+        <item>Turns towards the origin of sound</item>
+        <item>Extend hand to grasp a toy</item>
+        <item>Siting</item>
+        <item>Standing</item>
+        <item>Walking</item>
+        <item>Talking</item>
+
+    </string-array>
+    <string-array name="BCG">
+        <item>(Intra- dermal left fore arm)</item>
+        <item>Dose:(0.05mls for child below 1 year)</item>
+        <item>Turns towards the origin of sound</item>
+        <item>Dose:(0.1mls for child above 1 year)</item>
+
+    </string-array>
 </resources>

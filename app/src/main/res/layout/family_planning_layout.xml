@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp">
+        <TableRow>
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/dateTodayHolder"
+                android:text="Date"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="190dp"
+                android:layout_height="90dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/familyPlanningClinicalNote"
+                android:text="Clinical Notes"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+            <TextView
+                android:background="@drawable/cell_shape"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:gravity="center_horizontal"
+                android:id="@+id/nextVisitPlaceHolder"
+                android:text="Next Visit"
+                android:textSize="15sp"
+                tools:ignore="SmallSp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

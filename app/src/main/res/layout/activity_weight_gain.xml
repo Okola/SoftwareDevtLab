@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary"
+    android:backgroundTint="@color/secondary"
+    android:id="@+id/FrameLayout"
+    tools:context=".ProgressReport">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight Gain Chart showing weight of the mother during the gestation period"
+                android:textSize="15sp"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/primary"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <com.jjoe64.graphview.GraphView
+                        android:layout_marginTop="12dp"
+                        android:layout_marginVertical="15dp"
+                        android:layout_marginHorizontal="25dp"
+                        android:paddingLeft="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_height="500dp"
+                        android:backgroundTint="@color/secondary"
+                        android:background="@color/secondary"
+                        android:id="@+id/idGraphView"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/primary"
+                android:text="@string/update_details"
+                android:textSize="12sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/updatematernalprofile"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout"
+    tools:context=".PreviousPregnancy"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRESENT PREGNANCY"
+            android:textColor="@color/primary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="5dp"
+            android:textSize="18sp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp">
+                    <TableRow>
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="No. of Visits"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Date"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Urine"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Weight"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Bp."
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:id="@+id/labourDuration"
+                            android:textColor="@color/primary"
+                            android:text="Hb."
+                            android:textSize="15sp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Pallor"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Maturity"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Fundal Height"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Presentation"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:textColor="@color/primary"
+                            android:gravity="center_horizontal"
+                            android:text="Lie"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:textColor="@color/primary"
+                            android:gravity="center_horizontal"
+                            android:text="Foetal Heart"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:textColor="@color/primary"
+                            android:gravity="center_horizontal"
+                            android:text="Foetal Movt."
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:textColor="@color/primary"
+                            android:gravity="center_horizontal"
+                            android:text="Next Visit"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                    </TableRow>
+                </TableLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/presentPregnancyRecycler"/>
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/update_details"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/updatematernalprofile"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</FrameLayout>

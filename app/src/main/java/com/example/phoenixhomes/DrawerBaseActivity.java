@@ -23,7 +23,7 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class DrawerBaseActivity  extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public abstract class DrawerBaseActivity  extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     public FirebaseAuth mAuth;
     public FirebaseUser currentUser;
@@ -151,4 +151,6 @@ public class DrawerBaseActivity  extends AppCompatActivity implements Navigation
             getSupportActionBar().setTitle(titleString);
         }
     }
+
+    public abstract void onItemClick(int position);
 }

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:layout_marginHorizontal="12dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How is the baby’s head size (Normal, extra small – micro cephalic, extra big - hydrocephalic, Others Specify)?"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/babyHeadHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Does the baby have any abnormalities in the mouth / gum (cleft lip/pallate)/(Others Specify)?"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"/>
+                    <EditText
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mouthAbnormalitiesHolder1"
+                        android:textSize="15sp"
+                        android:textColor="@color/primary"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="4dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Look at the baby’s arms and legs:-Check if the limbs have any abnormalities
+(club foot, congenital hip dislocation, jointed fingers or toes, extra fingers and toes) (Others Specify)"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/limbAbnormalityHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check if the arms, legs, back look normal"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/limbNormalityHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check the muscle tone for floppiness or rigidity"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/muscleToneHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check if the joints move normally; whether they are flexible.(Specify)"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/jointsMovementsHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check that the child has 5 fingers and 5 toes.(Others Specify)"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/noOfFingersAndToesHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Feel the baby’s arms and shoulders; are they normal? (Yes/No)(if yes,specify)"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"/>
+                    <EditText
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/armsAndShouldersNormaltyHolder1"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"
+                        android:textColor="@color/primary"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Look at the baby’s back:"
+                android:textSize="15sp"
+                android:layout_marginHorizontal="12dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Are there any swellings, bulge, protrusions, sores or marks along the spine
+( spina bifida)"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/babyBackHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="8dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Look at the baby’s anus and genitalia – Is the genital oriface in the correct place? Is the anus
+normal (imperforate anus)?"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/babyAnusAndGenitaliaHolder1"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Does the baby become stiff or floppy when lying in certain positions (cerebral palsy)?(Yes/No)(if yes,specify)"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"/>
+                    <EditText
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/babyStiffnesLyingHolder1"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"
+                        android:textColor="@color/primary"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="SUBMIT"
+                android:textSize="15sp"
+                android:id="@+id/submit1"
+                android:textColor="@color/secondary"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/round_btn"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>
