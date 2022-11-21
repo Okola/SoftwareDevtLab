@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADMINISTERED VACCINE"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:background="@color/primary"
+        android:textColor="@color/secondary"
+        android:layout_marginBottom="25dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaccine Administered"
+                    android:textColor="@color/primary"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/select_administered_vaccine"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="12dp"
+                    android:backgroundTint="@color/primary"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="2dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dosage"
+                    android:textColor="@color/primary"
+                    android:textSize="15sp" />
+
+                <Spinner
+                    android:id="@+id/select_administered_dosage"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="12dp"
+                    android:backgroundTint="@color/primary"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="2dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of Admission"
+                    android:textColor="@color/primary"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:id="@+id/select_vaccination_date"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:autofillHints="@string/select_date"
+                    android:background="@drawable/edit_text_border"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_date"
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="2dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of next Admission"
+                    android:textColor="@color/primary"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="5dp"/>
+                <TextView
+                    android:id="@+id/select_nextvaccination_date2"
+                    android:layout_marginStart="12dp"
+                    android:layout_width="170dp"
+                    android:layout_height="40dp"
+                    android:autofillHints="@string/select_date"
+                    android:background="@drawable/edit_text_border"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_vertical"
+                    android:hint="@string/select_date"
+                    android:paddingHorizontal="15sp"
+                    android:paddingVertical="2dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/round_btn"
+                android:gravity="center"
+                android:text="SUBMIT"
+                android:textColor="@color/secondary"
+                android:textSize="15sp" />
+
+
+
+
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

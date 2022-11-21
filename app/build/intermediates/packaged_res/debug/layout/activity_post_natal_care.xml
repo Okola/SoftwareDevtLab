@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary"
+    android:backgroundTint="@color/secondary"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/maternalProfileCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maternal_profile"
+                    android:textSize="18sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="2dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="25dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/medicalAndSurgicalHistory"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/medical_and_surgical_history"
+                    android:textSize="18sp"
+                    android:paddingTop="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/previousPregnancy"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/previous_pregnancy"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/physicalExaminationCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/physical_examination"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/antenatalProfile"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/antenatal_profile"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/InfantFeedingCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/infant_feeding"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/presentPregnancyCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/present_pregnancy"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/WeightGainCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/weight_gain_chart"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/preventiveServicesCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preventive_services"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/deliveryCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delivery"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="100dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/postNatalExaminationCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/postnatal_examination"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/reproductiveOrgansCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reproductive_organs"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/familyPlanningCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/family_planning"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/clinicalNotesCard"
+                app:cardElevation="14sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clinical_notes"
+                    android:textSize="18sp"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/secondary"
+                    android:layout_marginVertical="5dp"
+                    android:paddingStart="15dp"
+                    android:drawablePadding="18dp"
+                    tools:ignore="RtlSymmetry" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

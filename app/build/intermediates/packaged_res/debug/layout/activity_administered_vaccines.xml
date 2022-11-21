@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:id="@+id/FrameLayout">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/the_dosages_and_vaccines_administered_so_far"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textFontWeight="400"
+                android:layout_marginBottom="12dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@color/secondary"
+                        android:backgroundTint="@color/secondary"
+                        android:elevation="0dp"
+                        android:orientation="vertical">
+
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="32dp"
+                                android:background="@drawable/cell_shape"
+                                android:gravity="center"
+                                android:text="@string/vaccine"
+                                android:textColor="@color/primary" />
+
+                            <TextView
+                                android:layout_width="130dp"
+                                android:layout_height="32dp"
+                                android:background="@drawable/cell_shape"
+                                android:gravity="center"
+                                android:text="@string/dosage"
+                                android:textColor="@color/primary" />
+
+
+                            <TextView
+                                android:id="@+id/to"
+                                android:layout_width="130dp"
+                                android:layout_height="32dp"
+                                android:background="@drawable/cell_shape"
+                                android:gravity="center"
+                                android:text="@string/date_administered"
+                                android:textColor="@color/primary" />
+
+                            <TextView
+                                android:id="@+id/nextVisit"
+                                android:layout_width="130dp"
+                                android:layout_height="32dp"
+                                android:background="@drawable/cell_shape"
+                                android:gravity="center"
+                                android:text="@string/date_of_next_visit"
+                                android:textColor="@color/primary" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/administeredVaccinesRecycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="50dp"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/update_details"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/update"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/primary"
+                android:text="Set Reminder for next Visit"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/setVaccinationReminder"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>
