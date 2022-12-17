@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FrameLayout"
+    tools:context=".classes.Delivery"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="DELIVERY"
+                android:textColor="@color/primary"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/DeliveryRecycler"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/update_details"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="50dp"
+                android:id="@+id/updatematernalprofile"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Early Identification of impairments and disabilities"
+                android:textColor="@color/primary"
+                android:textSize="18sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/impairmentsRecycler"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/update_details"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/updatematernalprofile1"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</FrameLayout>

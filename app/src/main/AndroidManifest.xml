@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.phoenixhomes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PhoenixHomes"
+        tools:targetApi="31">
+        <activity
+            android:name=".classes.forgotten_password"
+            android:exported="false" />
+        <activity
+            android:name=".classes.DevelopmentMilestone"
+            android:exported="false" />
+        <activity
+            android:name=".classes.DevelopmentProgressHeight"
+            android:exported="false" />
+        <activity
+            android:name=".classes.DevelopmentProgressWeight"
+            android:exported="false" />
+        <activity
+            android:name=".classes.AdministeredVaccines"
+            android:exported="false" />
+        <activity
+            android:name=".classes.BehaviouralCharacteristics"
+            android:exported="false" />
+        <activity
+            android:name=".classes.FeedingInformation"
+            android:exported="false" />
+        <activity
+            android:name=".classes.ClinicalReview"
+            android:exported="false" />
+        <activity
+            android:name=".classes.CivilRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".classes.HealthRecord"
+            android:exported="false" />
+        <activity
+            android:name=".classes.ParticularsOfChild"
+            android:exported="false" />
+        <activity
+            android:name=".classes.ChildMonitoring"
+            android:exported="false" />
+        <activity
+            android:name=".classes.selectChild"
+            android:exported="false" />
+        <activity
+            android:name=".classes.ClinicalNotes"
+            android:exported="false" />
+        <activity
+            android:name=".classes.FamilyPlanning"
+            android:exported="false" />
+        <activity
+            android:name=".classes.ReproductiveOrgans"
+            android:exported="false" />
+        <activity
+            android:name=".classes.PostNatalExamination"
+            android:exported="false" />
+        <activity
+            android:name=".classes.Delivery"
+            android:exported="false" />
+        <activity
+            android:name=".classes.PreventiveService"
+            android:exported="false" />
+        <activity
+            android:name=".classes.ProgressReport"
+            android:exported="false" />
+        <activity
+            android:name=".classes.WeightGain"
+            android:exported="false" />
+        <activity
+            android:name=".classes.PresentPregnancyTable"
+            android:exported="false" />
+        <activity
+            android:name=".classes.PhysicalExamination"
+            android:exported="false" />
+        <activity
+            android:name=".classes.PreviousPregnancy"
+            android:exported="false" />
+        <activity
+            android:name=".classes.MedicalAndSurgicalHistory"
+            android:exported="false" />
+        <activity
+            android:name=".classes.MaternalProfile"
+            android:exported="false" />
+        <activity
+            android:name=".classes.AntennatalProfile"
+            android:exported="false" />
+        <activity
+            android:name=".classes.InfantFeeding"
+            android:exported="false" />
+        <activity
+            android:name=".classes.PostNatalCare"
+            android:exported="false" />
+        <activity
+            android:name=".classes.MotherChildCareHome"
+            android:exported="false" />
+        <activity
+            android:name=".classes.user_registration"
+            android:exported="false" />
+        <activity
+            android:name=".classes.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".classes.userLogin"
+            android:exported="true" />
+        <activity
+            android:name=".classes.splashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

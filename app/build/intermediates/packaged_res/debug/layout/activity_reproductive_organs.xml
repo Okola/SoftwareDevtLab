@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".classes.ReproductiveOrgans"
+    android:id="@+id/FrameLayout"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REPRODUCTIVE ORGANS CANCER SCREENING"
+            android:textColor="@color/primary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="5dp"
+            android:textSize="16sp"/>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="12dp">
+                    <TableRow>
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Date"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Examination"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Test"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Results"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                        <TextView
+                            android:background="@drawable/cell_shape"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/primary"
+                            android:text="Treatment"
+                            android:textSize="15sp"
+                            tools:ignore="SmallSp" />
+                    </TableRow>
+                </TableLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/reproductiveRecycler"/>
+
+            </LinearLayout>
+
+
+
+        </HorizontalScrollView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/update_details"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/updatematernalprofile"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="VIA - Visual Inspection with Acetic Acid"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="LSIL – Low-grade squamous intraepithelial lesions"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="VIA - Visual Inspection with Lugols Iodine"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="HSIL – High grade squamous intraepithelial lesions"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="Cryo - Cryotherapy"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="CBE – Clinical breast examination"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="LEEP -Loop electrosurgical excision proedure"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="FNA- Fine Needles Aspiration"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

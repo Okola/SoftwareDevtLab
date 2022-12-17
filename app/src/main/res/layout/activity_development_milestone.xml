@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FrameLayout"
+    tools:context=".classes.BehaviouralCharacteristics"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEVELOPMENT MILESTONES"
+                android:textColor="@color/primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="15dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Social Smile"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4-6 weeks"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Head Holding/Control"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1-3 months"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Turns towards the origin of sound"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1-3 months"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Extend hand to grasp a toy"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2-3 months"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Siting"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5-9 months"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Standing"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7-13 months"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Walking"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12-18 months"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Talking"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="19-24 months"
+                        android:layout_marginStart="12dp"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp">
+                        <TableRow>
+                            <TextView
+                                android:background="@drawable/cell_shape"
+                                android:layout_width="170dp"
+                                android:layout_height="40dp"
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/primary"
+                                android:text=""
+                                android:textSize="15sp"
+                                tools:ignore="SmallSp" />
+                            <TextView
+                                android:background="@drawable/cell_shape"
+                                android:layout_width="100dp"
+                                android:layout_height="40dp"
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/primary"
+                                android:text="Age Achieved"
+                                android:textSize="15sp"
+                                tools:ignore="SmallSp" />
+                            <TextView
+                                android:background="@drawable/cell_shape"
+                                android:layout_width="100dp"
+                                android:layout_height="40dp"
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/primary"
+                                android:text="Within time"
+                                android:textSize="15sp"
+                                tools:ignore="SmallSp" />
+                            <TextView
+                                android:background="@drawable/cell_shape"
+                                android:layout_width="100dp"
+                                android:layout_height="40dp"
+                                android:gravity="center_horizontal"
+                                android:textColor="@color/primary"
+                                android:text="Delayed"
+                                android:textSize="15sp"
+                                tools:ignore="SmallSp" />
+                        </TableRow>
+                    </TableLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/developmentRecycler"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/update_details"
+                android:textSize="12sp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/updatematernalprofile"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</FrameLayout>

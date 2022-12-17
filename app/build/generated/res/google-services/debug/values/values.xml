@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">791620202664-rsqnfotss9ofsndlj1o8nmvkc2m6l1ut.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">791620202664</string>
+    <string name="google_api_key" translatable="false">AIzaSyD6eKICHluqWuBjZ11uy2Ol322d7BfcCR8</string>
+    <string name="google_app_id" translatable="false">1:791620202664:android:0ed0b40022ef2285c2929d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD6eKICHluqWuBjZ11uy2Ol322d7BfcCR8</string>
+    <string name="google_storage_bucket" translatable="false">phoenix-homes-89887.appspot.com</string>
+    <string name="project_id" translatable="false">phoenix-homes-89887</string>
+</resources>

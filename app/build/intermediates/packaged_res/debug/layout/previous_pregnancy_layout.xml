@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp">
+    <TableRow>
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/pregnancyOrder"
+            android:text="PREGNANCY ORDER"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/year"
+            android:text="Year"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/ancTimes"
+            android:text="Number of TImes ANC Attended"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/placeofdelivery"
+            android:text="Place Of Delivery"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/maturity"
+            android:text="Maturity"
+            android:textSize="12sp" />
+
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/labourDuration"
+            android:text="Duration of Labour"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/typeofdelivery"
+            android:text="Type of Delivery"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/birthweight"
+            android:text="Birth Weight in Kg"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/sex"
+            android:text="Sex"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/outcome"
+            android:text="Outcome"
+            android:textSize="12sp" />
+        <TextView
+            android:background="@drawable/cell_shape"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/prueperium"
+            android:text="Prueperium"
+            android:textSize="12sp" />
+    </TableRow>
+</TableLayout>

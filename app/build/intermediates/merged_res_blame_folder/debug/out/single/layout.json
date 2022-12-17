@@ -1,0 +1,378 @@
+[
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\dialog_child_details.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\dialog_child_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\preventive_service_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\preventive_service_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\pregnancy_order_layout_dialog.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\pregnancy_order_layout_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_progress_report.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_progress_report.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_clinical_review.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_clinical_review.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_present_pregnancy_table.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_present_pregnancy_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_reproductive_organs.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_reproductive_organs.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_select_child.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_select_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_weight_gain.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_weight_gain.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_splash_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\present_pregnancy_table_dialog_table.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\present_pregnancy_table_dialog_table.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\physical_examination_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\physical_examination_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_civil_registration.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_civil_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\content_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\content_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_medical_and_surgical_history.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_medical_and_surgical_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\delivery_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\delivery_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\child_postnatal_examination_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\child_postnatal_examination_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_forgotten_password.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_forgotten_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\ferrous_fumerate_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\ferrous_fumerate_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\reproductive_organs_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\reproductive_organs_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\toolbar.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\preventive_service_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\preventive_service_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\antenatal_profile_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\antenatal_profile_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_maternal_profile.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_maternal_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\behavioural_characteristics_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\behavioural_characteristics_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\feeding_information_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\feeding_information_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\feeding_information_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\feeding_information_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_development_progress_height.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_development_progress_height.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_development_milestone.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_development_milestone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\behavioural_characteristics_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\behavioural_characteristics_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\infant_feeding_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\infant_feeding_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_user_registration.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_user_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_forgot_password.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\particulars_of_child_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\particulars_of_child_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\development_milestone_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\development_milestone_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\medical_and_surgical_history_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\medical_and_surgical_history_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\medical_and_surgical_history_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\medical_and_surgical_history_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_mother_child_care_home.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_mother_child_care_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\particulars_of_child_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\particulars_of_child_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_post_natal_examination.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_post_natal_examination.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_drawer_base.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_drawer_base.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_behavioural_characteristics.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_behavioural_characteristics.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\nav_header.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\nav_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_post_natal_care.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_post_natal_care.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_particulars_of_child.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_particulars_of_child.xml"
+    },
+    {
+        "merged": "com.example.phoenixhomes.app-mergeDebugResources-65:/layout/activity_forgotten_password.xml",
+        "source": "com.example.phoenixhomes.app-main-68:/layout/activity_forgotten_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\infant_feeding_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\infant_feeding_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_feeding_information.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_feeding_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\clinical_notes_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\clinical_notes_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_delivery.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_delivery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\reproductive_organs_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\reproductive_organs_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\health_record_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\health_record_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\civil_registration_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\civil_registration_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\mother_postnatal_examination_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\mother_postnatal_examination_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\clinical_review_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\clinical_review_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\administered_vaccine_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\administered_vaccine_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_antennatal_profile.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_antennatal_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\physical_examination_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\physical_examination_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\child_postnatal_examination_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\child_postnatal_examination_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\ferrous_fumerate_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\ferrous_fumerate_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_previous_pregnancy.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_previous_pregnancy.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\civil_registration_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\civil_registration_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\previous_pregnancy_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\previous_pregnancy_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\family_planning_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\family_planning_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\previous_pregnancy_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\previous_pregnancy_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\family_planning_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\family_planning_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_child_monitoring.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_child_monitoring.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_user_login.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_user_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\clinical_review_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\clinical_review_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\weight_gain_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\weight_gain_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\present_pregnancy_table_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\present_pregnancy_table_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\administered_vaccines_recycler_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\administered_vaccines_recycler_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\pregnancy_order_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\pregnancy_order_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_preventive_service.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_preventive_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\clinical_notes_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\clinical_notes_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\development_milestone_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\development_milestone_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\maternal_profile_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\maternal_profile_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_development_progress_weight.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_development_progress_weight.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_clinical_notes.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_clinical_notes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_health_record.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_health_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\height_gain_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\height_gain_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_administered_vaccines.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_administered_vaccines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\maternal_profile_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\maternal_profile_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\health_record_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\health_record_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\imapairments_and_disabilities_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\imapairments_and_disabilities_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\delivery_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\delivery_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_physical_examination.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_physical_examination.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_infant_feeding.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_infant_feeding.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\child_recycler_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\child_recycler_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\imapairments_and_disabilities_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\imapairments_and_disabilities_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\antenatal_profile_dialog_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\antenatal_profile_dialog_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\activity_family_planning.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\activity_family_planning.xml"
+    },
+    {
+        "merged": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-mergeDebugResources-65:\\layout\\mother_postnatal_examination_layout.xml",
+        "source": "C:\\Users\\Austin Okola\\.gradle\\daemon\\7.3.3\\com.example.phoenixhomes.app-main-68:\\layout\\mother_postnatal_examination_layout.xml"
+    }
+]

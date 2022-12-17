@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:layout_marginHorizontal="12dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name of Child:"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/childNameHolder7"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sex of child:"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"/>
+                    <EditText
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/childGenderHolder7"
+                        android:textSize="15sp"
+                        android:textColor="@color/primary"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of birth (DD/MM/YY)"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/DOBHolder7"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="15dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gestation at birth (in weeks)"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gestationHolder7"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Birth weight in kgs"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"/>
+                    <EditText
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/birthweightHolder7"
+                        android:textSize="15sp"
+                        android:layout_marginHorizontal="12dp"
+                        android:textColor="@color/primary"/>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birth Length in cm"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="20dp"/>
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/birthlengthHolder7"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other birth characteristics**"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="20dp"/>
+                <EditText
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:id="@+id/xticsHolder7"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Birth order in family (e.g. 1st, 2nd, 3rd born):"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:id="@+id/birthOrderHolder7"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date 1st seen (DD/MM/YY)"
+                    android:textSize="15sp"
+                    android:layout_marginHorizontal="12dp"/>
+                <EditText
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dateHolder7"
+                    android:textSize="15sp"
+                    android:textColor="@color/primary"/>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="SUBMIT"
+                android:textSize="15sp"
+                android:id="@+id/submit"
+                android:textColor="@color/secondary"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/round_btn"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.cardview.widget.CardView>

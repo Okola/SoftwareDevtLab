@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondary"
+    android:backgroundTint="@color/secondary"
+    android:id="@+id/FrameLayout"
+    tools:context=".classes.ProgressReport">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/a_line_graph_showing_the_weight_in_kilograms_kgs_of_the_child_over_time"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/primary"/>
+
+            <com.jjoe64.graphview.GraphView
+                android:layout_marginHorizontal="12dp"
+                android:layout_marginVertical="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:backgroundTint="@color/secondary"
+                android:background="@color/secondary"
+                android:id="@+id/idGraphView"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight_of_child_in_kg"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="45dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:id="@+id/Weight"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:autofillHints=""
+                android:ems="10"
+                android:textColorHint="@color/black"
+                android:inputType="text"
+                android:textSize="18sp"
+                tools:ignore="RtlSymmetry,TextFields" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:id="@+id/savebtn"
+                android:textColor="@color/secondary"
+                android:text="Save"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/round_btn"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+</FrameLayout>
